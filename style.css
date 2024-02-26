@@ -1,0 +1,39 @@
+main{
+    height: 100vh;
+    width: 100vw;
+  
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+
+    gap: 2rem;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxcont{
+    height: 15rem;
+    width: 30rem;
+    display: none;
+    color: white;
+    position: relative;
+
+    
+   
+    align-items: center;
+    flex-direction: column;
+}
